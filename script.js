@@ -55,9 +55,9 @@ const QUIZ = [
       media: null,
       options: [
         { img: "img/montanha.jpg", label: "Montanha" },
-        { img: "img/plain.jpg", label: "Planície" },
+        { img: "img/planicie.jpg", label: "Planície" },
         { img: "img/planalto.jpg", label: "Planalto" },
-        { img: "img/depressao.jpg", label: "Depressão" },
+        { img: "img/depressao.jpeg", label: "Depressão" },
       ],
       answer: 0, // ajuste se quiser que a correta seja outra imagem
       explain:
@@ -108,7 +108,7 @@ const QUIZ = [
     },
     {
       title: "Solo impermeabilizado (muito asfalto/cimento) tende a…",
-      media: { img: "img/enchente-cidade.jpg", alt: "Rua alagada em área urbana" },
+      media: { img: "img/rua-alagada.jpg", alt: "Rua alagada em área urbana" },
       options: [
         "Aumentar as enchentes por dificultar a infiltração",
         "Diminuir as enchentes por segurar a água",
@@ -164,7 +164,7 @@ const QUIZ = [
     },
     {
       title: "Quantos oceanos a Terra possui?",
-      media: { img: "img/mapa-oceanos.png", alt: "Mapa-múndi com oceanos" },
+      media: { img: "img/mapa-mundi.jpg", alt: "Mapa-múndi com oceanos" },
       options: ["3", "4", "5", "6"],
       answer: 2,
       explain:
